@@ -32,3 +32,21 @@ Student Interface
 #Assignments and Grades:
 --View Assignments and Deadlines: List all assignments with due dates and status (submitted, due, overdue).
 --View Grades: Check grades for each assignment and overall class grades.
+
+
+
+Project Structure
+#Main Instance:
+--main.py: Controls the initial screen and navigation to different user interfaces.
+#Admin Module:
+--admin_gui.py: Defines the Admin GUI layout and widgets.
+--admin_logic.py: Contains the logic for Admin operations, such as input validation, queueing database updates, etc.
+--admin_db.py: Handles database interactions for the Admin functionalities.
+#Teacher Module:
+--teacher_gui.py: Manages the Teacher GUI components.
+--teacher_logic.py: Processes business logic for Teacher operations.
+--teacher_db.py: Manages database interactions specific to teachers.
+#Student Module:
+--student_gui.py: Builds the Student GUI.
+--student_logic.py: Implements logic for Student functionalities.
+--student_db.py: Handles database interactions for students.
