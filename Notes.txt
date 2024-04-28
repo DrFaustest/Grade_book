@@ -28,25 +28,25 @@ Teacher Interface
 Student Interface
 #Class Overview:
 --View Enrolled Classes: Display all current classes the student is enrolled in.
-#Class Details: Access detailed information about each class, including syllabus, class schedule, and teacher contacts.
+#Class Details: Access detailed information about each class.
 #Assignments and Grades:
---View Assignments and Deadlines: List all assignments with due dates and status (submitted, due, overdue).
+--View Assignments: List all assignments status (graded, not graded).
 --View Grades: Check grades for each assignment and overall class grades.
 
 
-
 Project Structure
-#Main Instance:
+#Main Instance(root folder):
 --main.py: Controls the initial screen and navigation to different user interfaces.
-#Admin Module:
---admin_gui.py: Defines the Admin GUI layout and widgets.
---admin_logic.py: Contains the logic for Admin operations, such as input validation, queueing database updates, etc.
---admin_db.py: Handles database interactions for the Admin functionalities.
-#Teacher Module:
---teacher_gui.py: Manages the Teacher GUI components.
---teacher_logic.py: Processes business logic for Teacher operations.
---teacher_db.py: Manages database interactions specific to teachers.
-#Student Module:
---student_gui.py: Builds the Student GUI.
---student_logic.py: Implements logic for Student functionalities.
---student_db.py: Handles database interactions for students.
+--school_grades.db: SQLite database file containing tables for users, classes, subjects, assignments, and grades.
+#Admin Module(admin folder):
+--admin_gui.py(admin.admin_gui.py): Defines the Admin GUI layout and widgets.
+--admin_logic.py(admin.admin_logic.py): Contains the logic for Admin operations, such as input validation, queueing database updates, etc.
+--admin_db.py(admin.admin_db.py): Handles database interactions for the Admin functionalities.
+#Teacher Module(teacher folder):
+--teacher_gui.py(teacher.teacher_gui.py): Manages the Teacher GUI components.
+--teacher_logic.py(teacher.teacher_logic.py): Processes business logic for Teacher operations.
+--teacher_db.py(teacher.teacher_db.py): Manages database interactions specific to teachers.
+#Student Module(student folder):
+--student_gui.py(student.student_gui.py): Builds the Student GUI.
+--student_logic.py(student.student_logic.py): Implements logic for Student functionalities.
+--student_db.py(student.student_db.py): Handles database interactions for students.
