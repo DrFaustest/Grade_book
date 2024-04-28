@@ -1,0 +1,34 @@
+Admin Interface
+#User Management:
+--Add/Edit/Delete Teachers and Students: Interface to manage teacher and student profiles, including adding new teachers and students, editing their details, or removing them from the system.
+--View Teachers/Students: Display lists of all teachers and students with options to modify their details directly.
+#Subject Management:
+--Add/Edit/Delete Subjects: Manage subjects that are offered, including creating new subjects, editing existing ones, and deleting them if they are no longer taught.
+#Class Management:
+--Create/Edit/Delete Classes: Manage classes, including assigning subjects and setting up class instances for different semesters or years.
+--Assign/Unassign Teachers to Classes: Ability to link teachers to specific classes and remove them as needed.
+--Enroll/Unenroll Students in Classes: Interface to manage student enrollments in classes.
+#Database Oversight:
+--View and Manage All Tables: Access to a more detailed view of the database tables for direct database manipulation if necessary (advanced feature for troubleshooting or complex modifications).
+
+
+Teacher Interface
+#Class Overview:
+--Select Class: Dropdown or list selection of classes they are teaching.
+--View Class Roster: Display a list of all students enrolled in the selected class.
+#Assignment Management:
+--Create/Edit/Delete Assignments: Interface for managing assignments including setting due dates and description.
+--Add Scores for Assignments: Enter scores for completed assignments, modify scores if necessary.
+#Grade Overview:
+--View Grades by Assignment: Display grades for all students for a particular assignment.
+#Reporting:
+--Generate Reports: Ability to generate reports on class performance, individual student progress, or comparisons across classes they teach.
+
+
+Student Interface
+#Class Overview:
+--View Enrolled Classes: Display all current classes the student is enrolled in.
+#Class Details: Access detailed information about each class, including syllabus, class schedule, and teacher contacts.
+#Assignments and Grades:
+--View Assignments and Deadlines: List all assignments with due dates and status (submitted, due, overdue).
+--View Grades: Check grades for each assignment and overall class grades.
